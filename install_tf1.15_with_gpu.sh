@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Add PPA drivers
-#sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo add-apt-repository ppa:graphics-drivers/ppa
 
 # Install Nvidia drivers
-#sudo apt install -y nvidia-driver-470
+sudo apt install -y nvidia-driver-470
 
 # Creating conda environment
 source ~/anaconda3/etc/profile.d/conda.sh
